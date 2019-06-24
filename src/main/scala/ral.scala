@@ -79,6 +79,7 @@ object CompleteBinaryTree {
     inner(xs, xs.length)
   }
 }
+
 case class Leaf[A](value: A) extends CompleteBinaryTree[A]
 case class Node[A](value: A, l: CompleteBinaryTree[A], r: CompleteBinaryTree[A]) extends CompleteBinaryTree[A]
 

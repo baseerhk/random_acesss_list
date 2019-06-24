@@ -5,3 +5,5 @@ project/target/
 .history
 .cache
 .lib/
+.bloop/
+.metals/
